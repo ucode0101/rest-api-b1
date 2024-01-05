@@ -6,6 +6,8 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.util.List;
+
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 
