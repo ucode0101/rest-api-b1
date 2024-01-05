@@ -1,0 +1,13 @@
+{
+  "firstName": "Mike",
+  "lastName": "Smith",
+  "birthdate": "1980-02-02",
+  "email": "msmith@fake.com",
+  "phone": "8005555555",
+  "street1": "1 Main St.",
+  "street2": "Apartment A",
+  "city": "Anytown",
+  "stateProvince": "NY",
+  "postalCode": "12345",
+  "country": "USA"
+}
