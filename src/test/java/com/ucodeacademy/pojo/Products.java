@@ -2,6 +2,7 @@ package com.ucodeacademy.pojo;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.util.List;
 
@@ -47,7 +48,7 @@ public class Products {
         this.price = price;
     }
 
-    @JsonIgnore  // this annotation is used to ignore it when doing deserialization
+   @JsonIgnore  // this annotation is used to ignore it when doing deserialization
     public int getId() {
         return id;
     }
@@ -57,7 +58,7 @@ public class Products {
     }
 
 
-    @JsonIgnore // this annotation is used to ignore it when doing deserialization
+    //@JsonIgnore // this annotation is used to ignore it when doing deserialization
     public List<Products> getAllProducts() {
         return allProducts;
     }
@@ -74,4 +75,5 @@ public class Products {
                 ", id=" + id +
                 '}';
     }
+
 }
