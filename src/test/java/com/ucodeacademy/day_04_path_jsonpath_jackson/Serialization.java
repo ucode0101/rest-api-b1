@@ -1,5 +1,5 @@
 package com.ucodeacademy.day_04_path_jsonpath_jackson;
-
+import com.ucodeacademy.utilities.ContactUtil;
 import com.ucodeacademy.utilities.FruitShopUtil;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
